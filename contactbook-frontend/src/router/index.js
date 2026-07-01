@@ -16,6 +16,13 @@ const routes = [
     },
 
 
+    {
+        path: "/contacts/",
+        name: "contact.add",
+        component: () => import("@/views/ContactAdd.vue"),
+    },
+
+
     // Route bẫy lỗi 404
     {
         path: "/:pathMatch(.*)*",
